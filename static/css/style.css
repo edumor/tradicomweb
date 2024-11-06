@@ -1,0 +1,408 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal; 
+  font-style: bold;
+  font-variation-settings: normal;
+  width: 100%; 
+}
+
+#myNavbar {
+  background-color: rgba(227, 234, 238,0.95)!important;
+}
+
+.custom-navbar .navbar-brand img {
+  margin-right: 10px; /* Ajusta este valor según sea necesario */
+  font-size: 1.4rem; /* Aumenta el tamaño de la fuente */
+  margin-left: 20px; /* Añade espacio entre los elementos del menú y el logo */
+}
+
+.custom-navbar .nav-link {
+  padding-left: 10px; /* Ajusta este valor según sea necesario */
+  padding-right: 10px; /* Ajusta este valor según sea necesario */
+}
+
+
+.resaltado {
+  color: rgb(3, 3, 3); 
+  font-size:20px; 
+  padding: 5px; 
+  text-shadow: 2px 2px 4px #363438; 
+}
+
+.container1 {
+  background-image: url(/static/img/foto_section1-1024x1024-transformed.jpeg);
+  opacity: 4;
+  position: relative;
+  width: 83%; /* Ajusta el ancho para que sea menor */
+  height: 100vh; /* Ajusta la altura para que sea mayor */
+  overflow: hidden;
+  max-width: 100%;
+  background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+}
+
+.alto {
+  height: 60vh;
+}
+
+.justificado {
+   text-align: justify;
+}
+
+.color_section { 
+  margin-bottom: 30px;
+  color: black; 
+  
+}
+/* Eliminar borde del logo en el navbar */
+.custom-navbar .navbar-brand img {
+  outline: none;
+  border: none;
+}
+
+
+/* Eliminar borde de los inputs */
+input {
+  outline: none;
+  border: none;
+}
+
+
+
+
+/* Eliminar borde del logo en el navbar */
+.custom-navbar .navbar-brand img {
+  outline: none;
+  border: none;
+}
+
+
+/* Eliminar borde de los inputs */
+input {
+  outline: none;
+  border: none;
+}
+
+
+
+.bordered-section {
+  /*
+  border: 1px solid #000;  Add a border */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 80%; /* Ajusta el ancho según sea necesario */
+  padding: 5px; /* Adjust the padding as needed */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+.custom-img {
+  max-width: 90%;
+  height: 85%;
+  margin: 60px auto; /* Ajusta el valor de margin-top según sea necesario */
+  transform: scale(1.2); /* Ajusta el valor de scale según sea necesario */
+}
+
+.youtube-video {
+  margin-top: 30px; /* Ajusta este valor según sea necesario */
+}
+
+.common-class {
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);  
+  position: relative;
+  padding: 5%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 50px;
+  color: #fff; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.linea-footer {
+  border-top: 3px solid white; 
+  width: 100%; 
+  padding-top: 10px;
+  font-weight: bold;
+  color: white;
+ 
+}
+
+.jf_cont_img{
+  padding: 10%;
+}
+
+.jf_section_1 {
+  padding: 5%;
+  }
+
+  .jf_cont_sec_2_link{
+    padding: 5%;
+    width: 200 px;
+  }
+
+ .jf_cont_sec_1_link.hr {
+    border: none; 
+    height: 15px; 
+    background-color: black; 
+  }
+  .service-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  #PSA {
+    margin-top: 50px; /* Adjust the value as needed */
+}
+
+  #TSA {
+    margin-top: 50px; /* Adjust the value as needed */
+}
+  .video-container {
+    position: relative;
+    width: 90%; /* Ajusta el ancho para que sea menor */
+    height: 100vh; /* Ajusta la altura para que sea mayor */
+    overflow: hidden;
+    max-width: 100%;
+    /*
+    margin-left: 20%; /* Centra el contenedor */
+   
+}
+
+
+
+#marketing-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    opacity: 0.5; /* Ajusta este valor según sea necesario */
+}
+
+#marketing-video2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  opacity: 0.5; /* Ajusta este valor según sea necesario */
+}
+
+.video-container video {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.margin-top {
+  margin-top: 100px; /* Ajusta este valor según sea necesario */
+}
+
+.overlay-text {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    color: black;
+    font-weight: bold;
+    text-align: justify;
+    padding: -20px;
+    max-width: 600px; /* Ajusta el ancho según sea necesario */
+    margin: 0 auto;
+}
+
+
+
+.title {
+  font-size: 2em;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+
+}
+
+
+.description {
+  font-size: 1.8em;
+  text-align: center;
+}
+
+.jf_cont_sec_1_link.hr {
+ border: none; 
+ height: 3px; 
+ background-color: black; 
+}
+
+.centered-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c0bcbc; /* Smoke background color */
+  padding: 50px;
+}
+
+.container {
+  background-color: rgba(227, 234, 238,0.95)!important;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.body_container{
+    background: #FEFAF6;
+    border-top: 4px solid black;
+    margin: 2%;
+    font-family: "Jersey 25";
+}
+
+
+.intro{
+	text-align:center;
+	margin-bottom: 40px;
+	font-size:20px;
+}
+
+
+.map-responsive {
+  overflow:hidden;
+  padding-bottom:75%;
+  position:relative;
+  height:0;
+  border-radius: 15px; /* Adjust the value as needed */
+  border: 2px solid #000;
+}
+.map-responsive iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+
+.btn-wsp{
+    position:fixed;
+    width:60px;
+    height:60px;
+    line-height: 63px;
+    bottom:25px;
+    right:25px;
+    background:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:35px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
+}
+.btn-wsp:hover{
+    background: #20ba5a;
+}
+
+
+.footer {
+  background-color: rgba(227, 234, 238,0.95)!important;
+  color: black; 
+  padding: 20px 0; 
+  width: 100%;
+  margin-bottom: 100px;
+
+}
+
+.linea-footer2 {
+  border-top: 3px solid rgb(4, 2, 2); 
+  width: 100%; 
+  padding-top: 10px;
+  font-weight: bold;
+  color: rgb(12, 1, 1);
+ 
+}
+
+
+
+@media (max-width: 768px) {
+.background-section {
+ height: auto;
+ padding: 50px 0;
+}
+
+.background-section .content {
+ padding: 10px;
+}
+}
+
+
+.message-box {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: rgba(227, 234, 238)!important;
+  border: 1px solid black;
+  border-radius: 7px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.message-box .close-btn {
+  display: block;
+  margin-top: 10px;
+  text-align: right;
+}
+.message-box .close-btn button {
+  background-color: #063566;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px; 
+}
+
+@media (max-width: 768px) {
+  .message-box {
+      width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer img {
+      margin-left: 0;
+  }
+  .footer p {
+      text-align: center;
+  }
+  .footer ul {
+      text-align: center;
+  }
+}

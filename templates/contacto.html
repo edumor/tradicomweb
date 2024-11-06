@@ -1,0 +1,47 @@
+<div id="contacto" class="container body_container">
+
+    <body>
+       
+        <form id="contactForm" action="/send_email" method="POST">
+            <h3>Contáctese con nosotros</h3>
+            <p class="intro">Agradecemos el interés por contactarse con nosotros, completando el siguiente formulario</p>
+            <hr>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <input type="text" name="nombre" placeholder="Nombre y Apellido  (*)" required>
+                    <input type="text" name="empresa" placeholder="Empresa">
+                    <input type="text" name="cargo" placeholder="Cargo">
+                    <input type="text" name="email" placeholder="Email (*)" required>
+                    <input type="text" name="telefono" placeholder="Teléfono de contacto (*)" required>
+                    <textarea name="mensaje" placeholder="Escriba aquí su mensaje (*)" required></textarea>
+                    <p></p>
+                    <input class="enviar" type="submit" value="Enviar" id="boton">
+                    <br>
+                    <br>
+                    <p>(*) Campos obligatorios</p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <br>
+                    <p class="info"><strong>También puede ubicarnos</strong></p>
+                    <p class="info2">Dirección: Perú 359, Piso 12 of. 1204.  (C1067AAG) - CABA - Rep. Argentina</p>
+                    <p class="info2">Teléfono: +54 11 5272 2098</p>
+                    <p class="info2">Email: info@tradicom.com.ar</p>
+                    <div class="map-responsive">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3904.977588366351!2d-58.37732511624193!3d-34.612210618039825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccad4594170c7%3A0x2e3399b169424061!2sPer%C3%BA%20359%2C%20C1067AAG%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1729515859005!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <a href="https://api.whatsapp.com/send?phone=+54118583511" class="btn-wsp" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+        </form>
+    </body>
+    
+        <div id="messageBox" class="message-box">
+            <p id="messageContent"></p>
+            <div class="close-btn">
+                <button onclick="closeMessageBox()">Cerrar</button>
+            </div>
+        </div>
+    <br>
+</div>
